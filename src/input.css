@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width : 900px) {
+
+     #home-section {
+        padding: 1px;
+    }/*
+    #home-info {
+        padding: 20px;
+    }
+    #craft-text {
+        font-size: 36px;
+    } */
+    #logo-div {
+        margin: 20px;
+        height: 100px;
+    }
+    /* #meaning-text,#name-text {
+        font-size: 12px;
+        margin: 40px;
+    } */
+}
+
+@media only screen and (max-width : 720px) {
+    nav {
+        font-size: 10px;
+    }
+    #home-info {
+        padding: 2rem;
+    }
+    #craft-text {
+        font-size: 30px;
+    }
+    #logo-div {
+        height: 75px;
+        margin: 10px;
+    }
+    #meaning-text,#name-text {
+        font-size: 15px;
+        gap: 10px;
+        margin: 30px;
+    }
+    #about-us-div {
+        width: 100%;
+        padding: 20px;
+    }
+    #corp {
+        font-size: 15px;
+        padding-bottom: 2px;
+    }
+    #corpdiv {
+        font-size: 13px;
+    }
+    #mobile {
+        font-size: 15px;
+        padding-bottom: 2px;
+    }
+    #mobilediv {
+        font-size: 13px;
+    }
+    #about-us {
+        font-size: 25px;
+    }
+    #about-us-content {
+        font-size: 13px;
+    }
+    #about-subdiv {
+        padding: 10px;
+        margin: 0px;
+        gap: 1rem;
+    }
+    #web {
+        font-size: 15px;
+        padding-bottom: 2px;
+    }
+    #webdiv {
+        font-size: 13px;
+    }
+    #proj {
+        font-size: 15px;
+        padding-bottom: 2px;
+    }
+    #projdiv {
+        font-size: 13px;
+    }
+    #recovery-sec {
+        flex-direction: column;
+    }
+    #recov-head {
+        width: 100%;
+        height: 100%;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        background-size: 100%;
+    }
+    #recov-div {
+        width: 100%;
+        padding: 30px;
+    }
+    #consul-text,#list-text,#consul-end-text {
+        font-size: 13px;
+    }
+    #list-text,#consul-end-text {
+        margin-top: 1rem;
+    }
+    #software-div {
+        flex-direction: column;
+    }
+    #soft-icon {
+        width: 100%;
+        padding: 2rem;
+    }
+    #soft-icon-p {
+        font-size: 13px;
+    }
+    #soft-code {
+        width: 100%;
+        padding: 10rem;
+    }
+    #contact {
+        font-size: 20px;
+    }
+    #address {
+        font-size: 13px;
+    }
+}
